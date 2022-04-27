@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E4FE1B1-7449-6B87-9F6D-E98FF2D0DC3E" name="SHIP">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CEACD0EC-017D-CF65-EF2F-F261C5773F59" name="SHIP">
 <createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:51:28 UTC</createdTime>
+<createdTime>2022-04-27 10:31:34 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ship_code" id="A672E50F-1E96-C40E-EBB7-F3A17D22E3C7">
+<Attribute name="ship_code" id="3F254DCB-08AE-9A1C-C412-750B4450252E">
 <createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:52:18 UTC</createdTime>
+<createdTime>2022-04-27 10:31:40 UTC</createdTime>
 <commentInRDBMS><![CDATA[the ship's code]]></commentInRDBMS>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
@@ -26,81 +26,14 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ship_name" id="85853260-FCE6-365C-7B18-CB733B234215">
+<Attribute name="opt_id" id="BE35EAC8-C2EF-29DE-0E05-90C164FDB4C1">
 <createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:54:58 UTC</createdTime>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ship_comm_date" id="C240ED43-D3DD-5456-4014-441F3293BE87">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:55:40 UTC</createdTime>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ship_tonnage" id="2274CD63-DCAF-B1AE-2459-CD4306AD88BA">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:56:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[the shiip's weight in tonnes]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ship_max_guest_cap" id="DE86BEF3-B212-8231-68E2-B3DAF479A087">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 10:01:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[the ship's maximum guest allowed]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ship_country_registered" id="561296F1-19F3-C319-91F8-AA29898A037D">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 10:05:28 UTC</createdTime>
-<commentInRDBMS><![CDATA[the country where the ship is registered in]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="opt_id" id="88CCBB16-B4D0-99DC-EAB8-BC4C2187EBD2">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 10:08:15 UTC</createdTime>
+<createdTime>2022-04-27 10:35:44 UTC</createdTime>
 <commentInRDBMS><![CDATA[operator's ID]]></commentInRDBMS>
-<generatorID>3D2F2A3A-C1A6-3FC5-55B4-1263C2CCFBD6</generatorID>
+<generatorID>4D92C9C1-0698-DB7D-E139-A2BFDC888E90</generatorID>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
@@ -112,20 +45,87 @@
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ship_name" id="2D7BC8B6-56A9-1187-C8E2-9CA45C473DA4">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:32:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_comm_date" id="CB7810FD-659F-0A38-2E27-27A2FBFD0059">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:33:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's commision date]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_tonnage" id="B6920F51-5BDE-E23F-4488-C6707190D54F">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:33:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's tonnage]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_max_guest_cap" id="2A46171E-67EC-F472-7F6E-88985791DA9A">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:33:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's maximum guest capacity]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_country_registered" id="219F5EBD-870E-9E3B-5BA0-3369A96B3945">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:34:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's country of registration]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9861BF8A-FD78-87A9-0E6E-F702ECFA9558" name="SHIP PK">
+<identifier id="E51C9204-130A-1E5A-0A2B-9A150FE2374E" name="SHIP PK">
 <createdBy>wongk</createdBy>
-<createdTime>2022-04-27 09:51:46 UTC</createdTime>
+<createdTime>2022-04-27 10:34:33 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>BDACF1C7-04A4-DE36-4F37-FA7E0A878921</attributeRef>
-<attributeRef>B3681CEE-04AF-B2B2-C3A3-B8C5EF75FAC0</attributeRef>
-<attributeRef>A672E50F-1E96-C40E-EBB7-F3A17D22E3C7</attributeRef>
+<attributeRef>3F254DCB-08AE-9A1C-C412-750B4450252E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBAB4E29-4D3D-0DC1-F029-3A1B5112CE98" name="CABIN">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:36:45 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cabin_number" id="61F99521-F247-1F74-819A-2097974F9286">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:39:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cabin's number]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="D52B1876-A4AF-7C8E-4B48-A5B42D451EEE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:41:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's code]]></commentInRDBMS>
+<generatorID>509C2B48-46D2-012E-E479-262520CE9478</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>3F254DCB-08AE-9A1C-C412-750B4450252E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_capacity" id="6EEB8786-9244-1DF7-2E87-590C91FA865A">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:40:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cabin's capacity]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_class" id="515ADCB1-1367-DEEB-0F20-4138BB29CA28">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:40:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cabin's class]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="770C0AEC-4C29-C1BA-8069-5206B88463BF" name="CABIN PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 10:40:19 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61F99521-F247-1F74-819A-2097974F9286</attributeRef>
+<attributeRef>D52B1876-A4AF-7C8E-4B48-A5B42D451EEE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

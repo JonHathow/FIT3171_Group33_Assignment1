@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AFEFA77-51D4-5A79-E997-4D07CB4813A6" name="PASSENGER">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AFEFA77-51D4-5A79-E997-4D07CB4813A6" name="PASSENGERv1">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 11:56:13 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
@@ -28,61 +28,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="passenger_fname" id="66A04DD0-5021-D212-7F4B-3A143796B484">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 11:57:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[passenger first name]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="passenger_lname" id="BB7337BD-97AE-FDBD-3151-31E627968796">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 11:58:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[passenger last name]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>20,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="passenger_gender" id="72512F9B-427F-C514-F063-B77FD7609108">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 11:58:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[passenger gender (M=Male, F=Female)]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="passenger_dob" id="FF16257E-3B54-5D4E-505B-1E9E1A1DBF85">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 11:59:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[passenger date of birth]]></commentInRDBMS>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="address_street" id="F033CC34-D3EC-5C1D-B842-DEC07B834987">
 <createdBy>Mark</createdBy>
@@ -164,6 +109,74 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_fname" id="66A04DD0-5021-D212-7F4B-3A143796B484">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 11:57:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger first name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_lname" id="BB7337BD-97AE-FDBD-3151-31E627968796">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 11:58:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger last name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_gender" id="72512F9B-427F-C514-F063-B77FD7609108">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 11:58:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger gender (M=Male, F=Female)]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_dob" id="FF16257E-3B54-5D4E-505B-1E9E1A1DBF85">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 11:59:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger date of birth]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_spoken_language" id="ACF6016A-700F-64ED-742F-242C84E1C909">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:12:48 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

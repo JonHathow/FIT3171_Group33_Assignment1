@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03BE87DD-A3A0-CFC5-57BB-D4ED134EFA58" name="COUNTRY">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:39:54 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="country_code" id="CFA8AF98-9A35-8BD0-B929-4B6389F5949E">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:40:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_name" id="6844488D-4D03-28B9-B79E-1D7F3BB7D900">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:41:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[the country's name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFE3A7C9-6702-AF43-DB68-526C7CD67FDB" name="COUNTRY PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:41:15 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFA8AF98-9A35-8BD0-B929-4B6389F5949E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -45,7 +45,7 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="passenger_id1" id="CE3F2D56-FE77-843D-CBE2-66038A4BF6E1">
+<Attribute name="guaridian_id" id="CE3F2D56-FE77-843D-CBE2-66038A4BF6E1">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 12:14:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="passenger_fname" id="66A04DD0-5021-D212-7F4B-3A143796B484">
 <createdBy>Mark</createdBy>

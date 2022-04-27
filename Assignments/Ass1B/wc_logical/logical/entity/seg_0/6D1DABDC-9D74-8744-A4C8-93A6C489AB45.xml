@@ -29,7 +29,7 @@
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country_code" id="EF062446-0641-CE2C-B634-534DAF4A797A">
+<Attribute name="port_country_code" id="EF062446-0641-CE2C-B634-534DAF4A797A">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 13:52:05 UTC</createdTime>
 <commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="port_name" id="366D446B-E89C-2CAE-323F-F950FF985797">
 <createdBy>wongk</createdBy>

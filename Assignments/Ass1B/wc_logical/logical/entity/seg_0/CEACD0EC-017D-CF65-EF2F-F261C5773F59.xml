@@ -45,7 +45,7 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country_code" id="F3D4A500-F75B-DA8F-7E7E-F2CACB3394C2">
+<Attribute name="ship_registered_country_code" id="F3D4A500-F75B-DA8F-7E7E-F2CACB3394C2">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 13:53:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>

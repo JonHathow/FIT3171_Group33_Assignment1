@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C0BF2B9-2F67-B37B-8BF4-042D85071288" name="CRUISE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<generatorID>F90E7CD4-50DC-4405-8B26-C4159D662374</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cruise_id" id="C7FB5F2D-630D-3F46-10DE-D14FC9DCCC2D">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's ID]]></commentInRDBMS>
+<generatorID>06A44BC0-9BFB-AC6E-9391-AD37AC6AF7C5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_code" id="2A37EAD1-B303-813E-11F9-D47C7326CB9F">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[the ship's code]]></commentInRDBMS>
+<generatorID>67C64C77-B066-B782-2BFC-088B367B9DC9</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE7B82A7-DBAD-9DB3-AEA3-9991393B15C8" referredColumn="D9C1DDEB-45E4-BCE8-7EB6-FFE6D74B785B"/>
+</associations>
+</Column>
+<Column name="cruise_name" id="A373D386-747A-EE4B-D717-0F26FF9607AD">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's name]]></commentInRDBMS>
+<generatorID>BECA8199-7EF2-62A0-D2CA-4B0F4EE12087</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_desc" id="26ACCADE-FCD6-6E31-1C39-C718DAD1DD69">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's description]]></commentInRDBMS>
+<generatorID>2ED88197-8375-6B83-A31D-35319BEF6222</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47493E59-654A-5F91-B086-EAFB3BEF050D" name="CRUISE_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<generatorID>892B24DC-E21E-D9E1-1CCB-DB097F0FAD6E</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7FB5F2D-630D-3F46-10DE-D14FC9DCCC2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08369140-0425-1019-B09B-A9FD98C66E4E" name="SHIP_CRUISE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<generatorID>76E69669-3E4C-1862-BCCB-2A317137C3BE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A37EAD1-B303-813E-11F9-D47C7326CB9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

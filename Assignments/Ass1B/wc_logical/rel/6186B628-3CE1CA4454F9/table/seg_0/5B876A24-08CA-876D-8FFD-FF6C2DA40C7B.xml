@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B876A24-08CA-876D-8FFD-FF6C2DA40C7B" name="PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<generatorID>6D1DABDC-9D74-8744-A4C8-93A6C489AB45</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_code" id="290A07C3-98C8-6FF5-CAF2-DB70AF878734">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>281BDC68-8910-8B88-6ADA-70D280B4019D</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_country_code" id="879668D9-0857-CE1A-3BDA-7450B60C5FE8">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>
+<generatorID>EF062446-0641-CE2C-B634-534DAF4A797A</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4D14DCD-8BC4-79E4-A930-BCFC6C4FBC2A" referredColumn="6315FFF6-8255-E6E9-44A4-14483BE69A86"/>
+</associations>
+</Column>
+<Column name="port_name" id="349D5000-F91E-3F86-E35B-2AC2C62E78F7">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's name]]></commentInRDBMS>
+<generatorID>366D446B-E89C-2CAE-323F-F950FF985797</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_population" id="23FF7E27-8E6E-7EA0-483C-0CA93C2D3C30">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's population]]></commentInRDBMS>
+<generatorID>D222A1DF-BB92-8C5F-B2DC-8336CAC9265C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_longitude" id="1AE288D1-80BB-E64F-D66D-1A957AA3ED74">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's longitude]]></commentInRDBMS>
+<generatorID>2A75BCDB-A10B-F783-0AAC-356E6754F505</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,10,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_latiittude" id="42038D61-1CFC-9282-ED0E-A35AE3549278">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's latitude]]></commentInRDBMS>
+<generatorID>4E6D1B56-EDE0-8181-528A-F02E22F4949C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>7</dataTypeScale>
+<ownDataTypeParameters>,9,7</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6B553FB3-1AB5-06EF-6856-838E16C993FA" name="PORT_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<generatorID>2E19A6EC-5FA2-877D-5868-847287B59EDF</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="290A07C3-98C8-6FF5-CAF2-DB70AF878734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20E97C2C-BCCB-FE06-8D83-555257AFD354" name="COUNTRY_PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:22 UTC</createdTime>
+<generatorID>76465C13-6988-441A-C55C-A18BE6BA51DD</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="879668D9-0857-CE1A-3BDA-7450B60C5FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

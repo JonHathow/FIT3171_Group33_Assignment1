@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18BBA820-60B2-AD95-D9C2-55EDD852015A" name="ADDRESS">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<generatorID>AE14502A-4779-D48C-E3BD-691801A8EE88</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="address_id" id="7E14076E-CF77-0ADD-A36F-B24D75B0B8DA">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key for address table]]></commentInRDBMS>
+<generatorID>C042C3C6-8BA7-861B-0DAF-621B47DCA715</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_street" id="2CC26A87-E270-11C0-8127-E84A3317A293">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[address street name]]></commentInRDBMS>
+<generatorID>F80E44D3-D9F3-9A5C-619C-4EFA80B8D925</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_town" id="FB40F5C7-B442-6EF2-501F-5C94E0128B7B">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[address town name]]></commentInRDBMS>
+<generatorID>073491D1-B3B4-1702-7021-72C7BAA6BA26</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_postcode" id="98630E93-68FB-DB71-30C2-DC2C5FAEBDAD">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[address postcode]]></commentInRDBMS>
+<generatorID>6117D417-6D8D-BB3C-9211-1E86745B3267</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_country" id="C20A3E0B-E085-62ED-50F0-0AB1D6F2AF17">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[address country]]></commentInRDBMS>
+<generatorID>D92292FD-F96D-F3EB-48FC-1F45A15B364C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3DA4BA6-7992-3DFA-57F4-DE99A177A0D9" name="ADDRESS_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<generatorID>3997BE92-CD43-2290-AF7E-6E119542F227</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E14076E-CF77-0ADD-A36F-B24D75B0B8DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F8A86D5-BD81-BD53-25E3-B733B57DF23E" name="ADDRESS_NK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:20:21 UTC</createdTime>
+<generatorID>3B3E95CE-A358-CD93-B92C-D9D42B04FB19</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CC26A87-E270-11C0-8127-E84A3317A293"/>
+<colUsage columnID="FB40F5C7-B442-6EF2-501F-5C94E0128B7B"/>
+<colUsage columnID="98630E93-68FB-DB71-30C2-DC2C5FAEBDAD"/>
+<colUsage columnID="C20A3E0B-E085-62ED-50F0-0AB1D6F2AF17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

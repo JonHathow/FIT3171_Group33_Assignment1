@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="manifest_id" id="47030E06-9D48-285F-AF60-3CB4D2833CEF">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:40:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="cruise_id" id="8C66CCAC-469C-C085-68D5-D67075A2A666">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 12:18:41 UTC</createdTime>
@@ -45,7 +59,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cabin_number" id="E7E9590A-33E8-9417-25EA-29EC491491A5">
 <createdBy>Mark</createdBy>
@@ -103,8 +117,20 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>23FBE2E4-39F2-D4AF-B441-F89B8DB07A49</attributeRef>
+<attributeRef>47030E06-9D48-285F-AF60-3CB4D2833CEF</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="386E9D65-A301-1E19-1675-6534870937C3" name="MANIFEST NK">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:41:26 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<newElementsIDs>8C66CCAC-469C-C085-68D5-D67075A2A666,23FBE2E4-39F2-D4AF-B441-F89B8DB07A49</newElementsIDs>
+<usedAttributes>
 <attributeRef>8C66CCAC-469C-C085-68D5-D67075A2A666</attributeRef>
+<attributeRef>23FBE2E4-39F2-D4AF-B441-F89B8DB07A49</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

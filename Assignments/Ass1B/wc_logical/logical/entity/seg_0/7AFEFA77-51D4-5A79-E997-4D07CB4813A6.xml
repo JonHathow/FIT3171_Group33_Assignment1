@@ -29,68 +29,20 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="address_street" id="F033CC34-D3EC-5C1D-B842-DEC07B834987">
+<Attribute name="address_id" id="0EAB55C7-E6D0-B864-8A24-1127C7A99589">
 <createdBy>Mark</createdBy>
-<createdTime>2022-04-27 12:08:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[address street name]]></commentInRDBMS>
+<createdTime>2022-04-27 14:22:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key for address table]]></commentInRDBMS>
 <generatorID>C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6</generatorID>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
-<referedAttribute>F80E44D3-D9F3-9A5C-619C-4EFA80B8D925</referedAttribute>
+<referedAttribute>C042C3C6-8BA7-861B-0DAF-621B47DCA715</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="address_town" id="2EB46F5E-4070-BF9D-EEDF-68086357D910">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 12:08:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[address town name]]></commentInRDBMS>
-<generatorID>C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6</generatorID>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<referedAttribute>073491D1-B3B4-1702-7021-72C7BAA6BA26</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="address_postcode" id="6071ED2C-D294-9034-1E12-275FC2CC6197">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 12:08:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[address postcode]]></commentInRDBMS>
-<generatorID>C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6</generatorID>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<referedAttribute>6117D417-6D8D-BB3C-9211-1E86745B3267</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="address_country" id="9717515D-D1D7-DC22-94A5-2E141F6A206D">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 12:08:39 UTC</createdTime>
-<commentInRDBMS><![CDATA[address country]]></commentInRDBMS>
-<generatorID>C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6</generatorID>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<referedAttribute>D92292FD-F96D-F3EB-48FC-1F45A15B364C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="passenger_id1" id="CE3F2D56-FE77-843D-CBE2-66038A4BF6E1">

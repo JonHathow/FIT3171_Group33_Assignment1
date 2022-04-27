@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE14502A-4779-D48C-E3BD-691801A8EE88" name="ADDRESS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE14502A-4779-D48C-E3BD-691801A8EE88" name="ADDRESSv1">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 12:00:42 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_id" id="C042C3C6-8BA7-861B-0DAF-621B47DCA715">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:22:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key for address table]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="address_street" id="F80E44D3-D9F3-9A5C-619C-4EFA80B8D925">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 12:00:57 UTC</createdTime>
@@ -81,6 +95,18 @@
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>C042C3C6-8BA7-861B-0DAF-621B47DCA715</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3B3E95CE-A358-CD93-B92C-D9D42B04FB19" name="ADDRESS NK">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:24:16 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<newElementsIDs>F80E44D3-D9F3-9A5C-619C-4EFA80B8D925,073491D1-B3B4-1702-7021-72C7BAA6BA26,6117D417-6D8D-BB3C-9211-1E86745B3267,D92292FD-F96D-F3EB-48FC-1F45A15B364C</newElementsIDs>
 <usedAttributes>
 <attributeRef>F80E44D3-D9F3-9A5C-619C-4EFA80B8D925</attributeRef>
 <attributeRef>073491D1-B3B4-1702-7021-72C7BAA6BA26</attributeRef>

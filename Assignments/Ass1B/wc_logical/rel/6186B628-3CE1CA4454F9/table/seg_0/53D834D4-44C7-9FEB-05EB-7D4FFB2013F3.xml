@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53D834D4-44C7-9FEB-05EB-7D4FFB2013F3" name="COUNTRY">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>C97D2ED3-464D-9DB0-1702-2189BC91FBE7</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_code" id="1678A909-0354-FED7-BBD0-FCFAD48C4244">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>
+<generatorID>B887541C-7DB4-D2FE-18B9-C88ECECF8CDA</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_name" id="C248C216-4EC1-804F-BE0F-6E998945957D">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the country's name]]></commentInRDBMS>
+<generatorID>EA26378C-9E6D-6681-AED2-F9B8A288E3FF</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5248353-DC8A-9E1D-C739-1BD8E3892D13" name="COUNTRY_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>1E45C239-7393-6B99-BDE2-4267A5B23A8B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1678A909-0354-FED7-BBD0-FCFAD48C4244"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

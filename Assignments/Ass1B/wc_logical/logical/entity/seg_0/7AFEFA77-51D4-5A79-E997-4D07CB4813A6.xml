@@ -60,7 +60,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="passenger_spoken_language" id="4C735FF1-7B44-AD49-4523-E0D2B9305565">
 <createdBy>Mark</createdBy>
@@ -76,7 +76,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="passenger_fname" id="66A04DD0-5021-D212-7F4B-3A143796B484">
 <createdBy>Mark</createdBy>

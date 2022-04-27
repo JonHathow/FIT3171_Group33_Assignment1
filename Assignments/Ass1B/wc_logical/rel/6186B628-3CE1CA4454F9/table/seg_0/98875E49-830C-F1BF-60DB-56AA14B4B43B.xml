@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98875E49-830C-F1BF-60DB-56AA14B4B43B" name="PORT_TEMP">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>72EED806-F166-0747-293F-8AE7BE6E89A1</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_temp_month" id="303D82D2-6009-5821-9B6D-7CC26693C691">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the month of the port's temperature]]></commentInRDBMS>
+<generatorID>E95126BF-E9D5-B567-319A-16F9C8D040A1</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<constraintName>chk_port_temp_month</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="Apr" description="Aprill"/>
+<valueDef value="Aug" description="August"/>
+<valueDef value="Dec" description="December"/>
+<valueDef value="Feb" description="February"/>
+<valueDef value="Jan" description="January"/>
+<valueDef value="July" description="July"/>
+<valueDef value="Jun" description="June"/>
+<valueDef value="Mar" description="March"/>
+<valueDef value="May" description="May"/>
+<valueDef value="Nov" description="November"/>
+<valueDef value="Oct" description="October"/>
+<valueDef value="Sep" description="September"/>
+</listOfValues>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="91181D04-9107-F234-B3D8-E2D709B025EA">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>E84A45AC-7495-CA65-E83C-78760D757033</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B33DF067-F2C7-18C0-898D-8A397138CF7C" referredColumn="B76C18FC-2734-9E98-81D2-788C70DD1D89"/>
+</associations>
+</Column>
+<Column name="port_temp_average_high" id="9C3B02A2-6C32-B570-88F3-70E62314B773">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the average high temperature of the port]]></commentInRDBMS>
+<generatorID>74FAD72C-D72E-1841-8ACE-6F6C6C83BD75</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_temp_average_low" id="987E1E53-3F3C-911B-225C-BA418C871686">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the average low  temperature of the port]]></commentInRDBMS>
+<generatorID>67448F97-2FC6-EBA4-937D-1FC3F2F63F77</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BCFFA613-9623-4BF0-0AF4-EC232B6DFBC6" name="PORT_TEMP_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>FFAF0070-F70D-E976-FB8A-652743EFD092</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="303D82D2-6009-5821-9B6D-7CC26693C691"/>
+<colUsage columnID="91181D04-9107-F234-B3D8-E2D709B025EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E73924FF-2ABD-2EC9-C708-7D14CC5B8D61" name="PORT_PORT_TEMP">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>8D2DEBAB-64C8-A7E4-BF1B-CD0B1F0ADE7B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91181D04-9107-F234-B3D8-E2D709B025EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

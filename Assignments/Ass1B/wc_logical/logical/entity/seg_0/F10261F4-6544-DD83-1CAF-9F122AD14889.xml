@@ -45,7 +45,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tour_number" id="5DC8C89D-E6AE-8785-7570-E69226F17EBC">
 <createdBy>Mark</createdBy>
@@ -61,7 +61,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tour_datetime" id="8288351D-D8A1-0AA3-0015-50F8BC1746F2">
 <createdBy>Mark</createdBy>
@@ -92,7 +92,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pt_participant_paid" id="DD82A2C9-0FC0-5E40-53F7-DEDB933FDD0B">
 <createdBy>Mark</createdBy>

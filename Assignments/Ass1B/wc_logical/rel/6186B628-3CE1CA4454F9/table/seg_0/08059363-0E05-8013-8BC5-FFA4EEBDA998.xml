@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="08059363-0E05-8013-8BC5-FFA4EEBDA998" name="PORT_TOUR_LANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>0CCFDCBC-8200-1944-EFAF-5B0D99F5865F</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tour_number" id="0B9222BD-85AF-B7FC-4844-FC7403847B2E">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
+<generatorID>FB6A497F-43D5-749A-2946-4342D1340C37</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="563E2FDA-836D-699F-994B-C8EF07516D79" referredColumn="2E1A50A4-0830-4862-9CE7-024E9FBD4DAB"/>
+</associations>
+</Column>
+<Column name="tour_datetime" id="D4834A8B-CBDE-D901-90AC-040CAF16A6A2">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
+<generatorID>2FE7B60B-8E9F-8076-FD94-E1630F0A7E69</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="563E2FDA-836D-699F-994B-C8EF07516D79" referredColumn="F14F8029-417A-7797-08AC-411957177DD6"/>
+</associations>
+</Column>
+<Column name="port_code" id="2058A187-EFDD-073D-72AE-83189816BCC4">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>BD11DB3E-20C9-50B4-46D7-EA2C3141C8F5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="563E2FDA-836D-699F-994B-C8EF07516D79" referredColumn="A854FC72-F47B-9D5C-8F5C-1E5590F2EC11"/>
+</associations>
+</Column>
+<Column name="language_code" id="2F9E0F4A-9D51-3E09-BCD5-4D1EE100C0CB">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[language code following ISO 639-1 Alpha-2 codes]]></commentInRDBMS>
+<generatorID>37321B68-5586-3D32-F123-93CA546276BB</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9975997E-5011-AE93-9377-461D9BD964F9" referredColumn="F14D80F0-6AAD-CCE1-C5F8-FA5718068575"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D3C6C69-B87F-9FD8-FF1D-3ED54BD2A76A" name="PORT_TOUR_LANGUAGE_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>C7B1FC1F-EF27-EF35-A737-AEDD514DA2FF</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B9222BD-85AF-B7FC-4844-FC7403847B2E"/>
+<colUsage columnID="D4834A8B-CBDE-D901-90AC-040CAF16A6A2"/>
+<colUsage columnID="2058A187-EFDD-073D-72AE-83189816BCC4"/>
+<colUsage columnID="2F9E0F4A-9D51-3E09-BCD5-4D1EE100C0CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10D51544-BD1E-F3DF-1263-C4A197F6DB37" name="LANGUAGE_PORT_TOUR">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>B416730C-6DE0-4A13-594C-039B4727BD4B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F9E0F4A-9D51-3E09-BCD5-4D1EE100C0CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A9D3925-0957-1DCD-0C2A-DDEB51CAFE7C" name="PORT_TOUR_LANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>10B3E3E3-1561-87AE-C012-5AD5F6A01E1C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B9222BD-85AF-B7FC-4844-FC7403847B2E"/>
+<colUsage columnID="D4834A8B-CBDE-D901-90AC-040CAF16A6A2"/>
+<colUsage columnID="2058A187-EFDD-073D-72AE-83189816BCC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

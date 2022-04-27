@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93197456-45F7-1481-3B26-DA6FAD30DE44" name="PORT_TOUR_PARTICIPANT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>F10261F4-6544-DD83-1CAF-9F122AD14889</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="61E9C63C-86C8-F27C-94E2-E8E8401432C5">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>AA3B10A8-906A-5611-735E-B4E1B34B2376</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F092D775-53E4-BEAF-908D-D2D232723F4C" referredColumn="AC3DA4AF-DF12-5A61-B132-A7F670A0A3D7"/>
+</associations>
+</Column>
+<Column name="port_code" id="15BCBF85-E506-68BB-F2C4-9BA7E91FFF4F">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>6EBE7FAA-DB41-3531-4362-B2F0D814EC87</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38F2283-722E-C5C2-B729-6798503C7F2A" referredColumn="A854FC72-F47B-9D5C-8F5C-1E5590F2EC11"/>
+</associations>
+</Column>
+<Column name="tour_number" id="309F26F7-7418-D5A6-ED1D-EC8AA6D2B5C7">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
+<generatorID>5DC8C89D-E6AE-8785-7570-E69226F17EBC</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38F2283-722E-C5C2-B729-6798503C7F2A" referredColumn="2E1A50A4-0830-4862-9CE7-024E9FBD4DAB"/>
+</associations>
+</Column>
+<Column name="tour_datetime" id="5BAB6965-D0F4-4688-42D2-D10C523B9039">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
+<generatorID>8288351D-D8A1-0AA3-0015-50F8BC1746F2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A38F2283-722E-C5C2-B729-6798503C7F2A" referredColumn="F14F8029-417A-7797-08AC-411957177DD6"/>
+</associations>
+</Column>
+<Column name="cruise_id" id="8C40BCA6-E247-9EF3-783E-1742189917E3">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's ID]]></commentInRDBMS>
+<generatorID>06183C6B-6F49-83D8-A867-41FA44CB8C63</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01AC683E-949D-2DCC-4C8A-BE3E1AE28F4D" referredColumn="F04B7098-6B5A-6387-CB00-C36EAD1855C8"/>
+</associations>
+</Column>
+<Column name="pt_participant_paid" id="B5943E5A-0202-670B-648E-FFE4A6638DC5">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[if participant has paid for the tour (Y=yes, N=no)]]></commentInRDBMS>
+<generatorID>DD82A2C9-0FC0-5E40-53F7-DEDB933FDD0B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<constraintName>CHK_PAID_VALUE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F20AD5EC-49E8-8C96-D0EB-8D845AC9A3AF" name="PORT_TOUR_PARTICIPANT_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>A9448C3B-EDC5-7D4C-147B-3072CC3DBBD7</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="309F26F7-7418-D5A6-ED1D-EC8AA6D2B5C7"/>
+<colUsage columnID="5BAB6965-D0F4-4688-42D2-D10C523B9039"/>
+<colUsage columnID="15BCBF85-E506-68BB-F2C4-9BA7E91FFF4F"/>
+<colUsage columnID="61E9C63C-86C8-F27C-94E2-E8E8401432C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9965F7E-98CF-6344-A554-741D79030F71" name="CRUISE_PORT_TOUR_PARTICIPANT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>859ACC67-34B8-CD09-FF69-A1405E66E49D</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C40BCA6-E247-9EF3-783E-1742189917E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1DDBA4F-A5E4-5D99-1E91-57D6BF6F0DBB" name="PASSENGER_PT_PARTICIPANT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>8F590AFA-AFD4-78C2-80AB-678F7D82DC38</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61E9C63C-86C8-F27C-94E2-E8E8401432C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B108EA84-B750-65AB-9D38-60111C914518" name="PT_PT_PARTICIPANT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 19:38:11 UTC</createdTime>
+<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="309F26F7-7418-D5A6-ED1D-EC8AA6D2B5C7"/>
+<colUsage columnID="5BAB6965-D0F4-4688-42D2-D10C523B9039"/>
+<colUsage columnID="15BCBF85-E506-68BB-F2C4-9BA7E91FFF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

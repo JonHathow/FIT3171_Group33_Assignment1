@@ -15,6 +15,8 @@
 <legendPosY>9</legendPosY>
 <display>false</display>
 <notation>2</notation>
+<showAllDetails>false</showAllDetails>
+<showElements>true</showElements>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0CCFDCBC-8200-1944-EFAF-5B0D99F5865F" otype="Entity" vid="362BBB7E-E162-A713-B6AA-D5656DF52F0C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>

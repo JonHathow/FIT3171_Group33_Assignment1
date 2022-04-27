@@ -117,6 +117,21 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="passenger_phone_no" id="AEF9B0E9-3361-152A-B15D-75D715FC7799">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 14:59:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's phone number]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="passenger_spoken_language" id="ACF6016A-700F-64ED-742F-242C84E1C909">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 14:12:48 UTC</createdTime>

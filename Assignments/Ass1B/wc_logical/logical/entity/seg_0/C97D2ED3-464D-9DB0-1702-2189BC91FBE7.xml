@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="03BE87DD-A3A0-CFC5-57BB-D4ED134EFA58" name="COUNTRY">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 11:39:54 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C97D2ED3-464D-9DB0-1702-2189BC91FBE7" name="COUNTRY">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 13:50:58 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="country_code" id="CFA8AF98-9A35-8BD0-B929-4B6389F5949E">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 11:40:02 UTC</createdTime>
+<Attribute name="country_code" id="B887541C-7DB4-D2FE-18B9-C88ECECF8CDA">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 13:50:58 UTC</createdTime>
 <commentInRDBMS><![CDATA[the country's code following ISO 3166-1 Alpha-2 codes]]></commentInRDBMS>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
@@ -29,9 +29,9 @@
 <dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="country_name" id="6844488D-4D03-28B9-B79E-1D7F3BB7D900">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 11:41:12 UTC</createdTime>
+<Attribute name="country_name" id="EA26378C-9E6D-6681-AED2-F9B8A288E3FF">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 13:50:58 UTC</createdTime>
 <commentInRDBMS><![CDATA[the country's name]]></commentInRDBMS>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
@@ -46,16 +46,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EFE3A7C9-6702-AF43-DB68-526C7CD67FDB" name="COUNTRY PK">
-<createdBy>wongk</createdBy>
-<createdTime>2022-04-27 11:41:15 UTC</createdTime>
+<identifier id="1E45C239-7393-6B99-BDE2-4267A5B23A8B" name="COUNTRY PK">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 13:50:58 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>CFA8AF98-9A35-8BD0-B929-4B6389F5949E</attributeRef>
+<attributeRef>B887541C-7DB4-D2FE-18B9-C88ECECF8CDA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

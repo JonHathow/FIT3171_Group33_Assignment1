@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="passenger_address" directorySegmentName="seg_0" id="C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LANGUAGE_PORT_TOUR" directorySegmentName="seg_0" id="B416730C-6DE0-4A13-594C-039B4727BD4B">
 <createdBy>Mark</createdBy>
-<createdTime>2022-04-27 12:08:39 UTC</createdTime>
+<createdTime>2022-04-27 18:39:46 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
-<sourcePk>3997BE92-CD43-2290-AF7E-6E119542F227</sourcePk>
-<identifying>false</identifying>
-<nameOnSource>lives at</nameOnSource>
+<sourcePk>621D79B0-FDF1-81BB-AAEC-029C5525C15F</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>is in</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>AE14502A-4779-D48C-E3BD-691801A8EE88</sourceEntity>
+<sourceEntity>2CB06F2D-5864-D5C2-6DC1-44DCCB50BF65</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>7AFEFA77-51D4-5A79-E997-4D07CB4813A6</targetEntity>
+<targetEntity>0CCFDCBC-8200-1944-EFAF-5B0D99F5865F</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

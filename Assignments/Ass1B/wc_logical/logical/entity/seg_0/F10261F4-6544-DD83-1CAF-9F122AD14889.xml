@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F10261F4-6544-DD83-1CAF-9F122AD14889" name="PORT_TOUR_PARTICIPANT">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:22:36 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="AA3B10A8-906A-5611-735E-B4E1B34B2376">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:43:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>8F590AFA-AFD4-78C2-80AB-678F7D82DC38</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>4BC61BEE-E6B8-5D62-3793-EAC0356BE94A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="6EBE7FAA-DB41-3531-4362-B2F0D814EC87">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>9AAAC175-88EF-0AD9-C4BC-E9541C0318A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_number" id="5DC8C89D-E6AE-8785-7570-E69226F17EBC">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
+<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>90264D52-E84B-C4DE-595C-FA14D399F6D3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tour_datetime" id="8288351D-D8A1-0AA3-0015-50F8BC1746F2">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:32:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
+<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>611459FD-EB92-EDD1-6C82-8C0612E7DAE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="06183C6B-6F49-83D8-A867-41FA44CB8C63">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:29:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's ID]]></commentInRDBMS>
+<generatorID>859ACC67-34B8-CD09-FF69-A1405E66E49D</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>06A44BC0-9BFB-AC6E-9391-AD37AC6AF7C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pt_participant_paid" id="DD82A2C9-0FC0-5E40-53F7-DEDB933FDD0B">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:23:09 UTC</createdTime>
+<commentInRDBMS><![CDATA[if participant has paid for the tour (Y=yes, N=no)]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<constraintName>CHK_PAID_VALUE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9448C3B-EDC5-7D4C-147B-3072CC3DBBD7" name="PORT_TOUR_PARTICIPANT PK">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 18:32:42 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DC8C89D-E6AE-8785-7570-E69226F17EBC</attributeRef>
+<attributeRef>8288351D-D8A1-0AA3-0015-50F8BC1746F2</attributeRef>
+<attributeRef>6EBE7FAA-DB41-3531-4362-B2F0D814EC87</attributeRef>
+<attributeRef>AA3B10A8-906A-5611-735E-B4E1B34B2376</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -58,7 +58,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="port_temp_average_high" id="74FAD72C-D72E-1841-8ACE-6F6C6C83BD75">
 <createdBy>wongk</createdBy>

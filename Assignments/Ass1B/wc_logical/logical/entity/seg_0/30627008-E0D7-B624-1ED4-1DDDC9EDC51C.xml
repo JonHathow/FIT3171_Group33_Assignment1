@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="30627008-E0D7-B624-1ED4-1DDDC9EDC51C" name="CRUISE_PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:16:36 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cruise_port_datetime" id="97DC58AF-5B1C-425C-BF00-73C8AB92F382">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:16:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[the depature or arrival time of a cruise at a particular port]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="588528FD-E761-193C-50C2-0CF9E30FF399">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:24:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's ID]]></commentInRDBMS>
+<generatorID>D6249E24-8A0D-10BD-E020-1860FFDFFFCC</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>06A44BC0-9BFB-AC6E-9391-AD37AC6AF7C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="7BE73509-7FFD-79DD-340F-0EFD568275C5">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:25:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>FB8B4B98-E00F-5BE1-8765-1BA1579FF10D</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<referedAttribute>281BDC68-8910-8B88-6ADA-70D280B4019D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_port_arrival_departure" id="3ABE90F1-1EF2-A59D-1E75-B669146E1270">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:17:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier for the arrival datetime or departure datetime]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E6DD5C56-7DAB-E01B-FE87-4D7ED5ADEF70" name="CRUISE_PORT PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-27 11:17:18 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97DC58AF-5B1C-425C-BF00-73C8AB92F382</attributeRef>
+<attributeRef>588528FD-E761-193C-50C2-0CF9E30FF399</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

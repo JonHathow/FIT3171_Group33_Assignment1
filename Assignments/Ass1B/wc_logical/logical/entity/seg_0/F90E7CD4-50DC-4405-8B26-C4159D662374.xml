@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F90E7CD4-50DC-4405-8B26-C4159D662374" name="CRUISE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F90E7CD4-50DC-4405-8B26-C4159D662374" name="CRUISEv1">
 <createdBy>wongk</createdBy>
 <createdTime>2022-04-27 10:46:34 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cruise_name" id="BECA8199-7EF2-62A0-D2CA-4B0F4EE12087">
 <createdBy>wongk</createdBy>

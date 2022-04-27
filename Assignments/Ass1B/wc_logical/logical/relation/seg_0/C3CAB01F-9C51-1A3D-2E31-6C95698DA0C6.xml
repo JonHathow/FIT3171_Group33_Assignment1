@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="passenger_address" directorySegmentName="seg_0" id="C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:08:39 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<sourcePk>3997BE92-CD43-2290-AF7E-6E119542F227</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>lives at</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AE14502A-4779-D48C-E3BD-691801A8EE88</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7AFEFA77-51D4-5A79-E997-4D07CB4813A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

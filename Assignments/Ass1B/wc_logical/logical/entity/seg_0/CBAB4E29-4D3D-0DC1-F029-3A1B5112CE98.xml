@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBAB4E29-4D3D-0DC1-F029-3A1B5112CE98" name="CABIN">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CBAB4E29-4D3D-0DC1-F029-3A1B5112CE98" name="CABINv1">
 <createdBy>wongk</createdBy>
 <createdTime>2022-04-27 10:36:45 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cabin_capacity" id="6EEB8786-9244-1DF7-2E87-590C91FA865A">
 <createdBy>wongk</createdBy>

@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE14502A-4779-D48C-E3BD-691801A8EE88" name="ADDRESS">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:00:42 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="address_street" id="F80E44D3-D9F3-9A5C-619C-4EFA80B8D925">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:00:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[address street name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_town" id="073491D1-B3B4-1702-7021-72C7BAA6BA26">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:01:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[address town name]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_postcode" id="6117D417-6D8D-BB3C-9211-1E86745B3267">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:02:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[address postcode]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address_country" id="D92292FD-F96D-F3EB-48FC-1F45A15B364C">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:05:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[address country]]></commentInRDBMS>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3997BE92-CD43-2290-AF7E-6E119542F227" name="ADDRESS PK">
+<createdBy>Mark</createdBy>
+<createdTime>2022-04-27 12:01:12 UTC</createdTime>
+<ownerDesignName>wc_logical</ownerDesignName>
+<engineerTo>
+<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F80E44D3-D9F3-9A5C-619C-4EFA80B8D925</attributeRef>
+<attributeRef>073491D1-B3B4-1702-7021-72C7BAA6BA26</attributeRef>
+<attributeRef>6117D417-6D8D-BB3C-9211-1E86745B3267</attributeRef>
+<attributeRef>D92292FD-F96D-F3EB-48FC-1F45A15B364C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -31,51 +31,20 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="port_code" id="6EBE7FAA-DB41-3531-4362-B2F0D814EC87">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 18:32:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<Attribute name="tour_id" id="6219A681-DF1A-7987-EC4A-8391A1934CB8">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:14:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's id]]></commentInRDBMS>
 <generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
 <ownerDesignName>wc_logical</ownerDesignName>
 <engineerTo>
 <item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
 </engineerTo>
-<referedAttribute>9AAAC175-88EF-0AD9-C4BC-E9541C0318A5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tour_number" id="5DC8C89D-E6AE-8785-7570-E69226F17EBC">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 18:32:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
-<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<referedAttribute>90264D52-E84B-C4DE-595C-FA14D399F6D3</referedAttribute>
+<referedAttribute>6DBA7765-73CA-D182-DD38-76AD9287D479</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="tour_datetime" id="8288351D-D8A1-0AA3-0015-50F8BC1746F2">
-<createdBy>Mark</createdBy>
-<createdTime>2022-04-27 18:32:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
-<generatorID>F82703BF-D9CD-0847-E107-35063FDA10FE</generatorID>
-<ownerDesignName>wc_logical</ownerDesignName>
-<engineerTo>
-<item key="6186B628-56B4-B9C9-90AB-3CE1CA4454F9" value="true"/>
-</engineerTo>
-<referedAttribute>611459FD-EB92-EDD1-6C82-8C0612E7DAE2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cruise_id" id="06183C6B-6F49-83D8-A867-41FA44CB8C63">
@@ -124,9 +93,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5DC8C89D-E6AE-8785-7570-E69226F17EBC</attributeRef>
-<attributeRef>8288351D-D8A1-0AA3-0015-50F8BC1746F2</attributeRef>
-<attributeRef>6EBE7FAA-DB41-3531-4362-B2F0D814EC87</attributeRef>
+<attributeRef>6219A681-DF1A-7987-EC4A-8391A1934CB8</attributeRef>
 <attributeRef>AA3B10A8-906A-5611-735E-B4E1B34B2376</attributeRef>
 </usedAttributes>
 </identifier>

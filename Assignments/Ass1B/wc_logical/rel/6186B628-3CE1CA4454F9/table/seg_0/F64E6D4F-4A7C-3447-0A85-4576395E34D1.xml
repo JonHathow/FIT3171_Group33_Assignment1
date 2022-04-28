@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F64E6D4F-4A7C-3447-0A85-4576395E34D1" name="TOUR_LANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>0CCFDCBC-8200-1944-EFAF-5B0D99F5865F</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tour_id" id="1C0A89C0-C1F2-E00E-797C-F74CFA500DC2">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's id]]></commentInRDBMS>
+<generatorID>4F888CD5-34E8-17BE-862D-31BA630C67DE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="662591CE-39C5-7852-66EA-829F0D0A0665" referredColumn="15D647FD-F9D3-23B0-4250-621B938ACF95"/>
+</associations>
+</Column>
+<Column name="language_code" id="6119AD33-AC50-45A9-2D29-FE304A732D82">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[language code following ISO 639-1 Alpha-2 codes]]></commentInRDBMS>
+<generatorID>37321B68-5586-3D32-F123-93CA546276BB</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC130768-47CC-5B37-7953-F999AEAD5749" referredColumn="28ED2104-22BF-3AD2-6A7E-546CDE1F0F75"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31F1BBBF-96BB-6E4B-50EB-B953B8B35F6A" name="TOUR_LANGUAGE_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>C7B1FC1F-EF27-EF35-A737-AEDD514DA2FF</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C0A89C0-C1F2-E00E-797C-F74CFA500DC2"/>
+<colUsage columnID="6119AD33-AC50-45A9-2D29-FE304A732D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D4BD4A4-6F9F-D002-D529-E1456D9B67AD" name="LANGUAGE_TLANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>B416730C-6DE0-4A13-594C-039B4727BD4B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6119AD33-AC50-45A9-2D29-FE304A732D82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EA824C9-C727-D63C-0B80-4FC51DB41B58" name="TOUR_TLANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>10B3E3E3-1561-87AE-C012-5AD5F6A01E1C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C0A89C0-C1F2-E00E-797C-F74CFA500DC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

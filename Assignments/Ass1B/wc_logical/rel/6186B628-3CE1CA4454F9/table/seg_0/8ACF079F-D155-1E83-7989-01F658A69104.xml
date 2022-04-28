@@ -1,0 +1,193 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8ACF079F-D155-1E83-7989-01F658A69104" name="PASSENGER">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>7AFEFA77-51D4-5A79-E997-4D07CB4813A6</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="878B5C72-29B6-F4D5-D621-7386EB3FFDFE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>4BC61BEE-E6B8-5D62-3793-EAC0356BE94A</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address_id" id="E0ED4348-5303-3C4B-9819-6DE55C9D25C8">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[surrogate key for address table]]></commentInRDBMS>
+<generatorID>0EAB55C7-E6D0-B864-8A24-1127C7A99589</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E789F355-A488-4A26-E9A4-80B0CF77B8B9" referredColumn="DEB96D49-C61A-3EB0-4345-C8E1D0772454"/>
+</associations>
+</Column>
+<Column name="guaridian_id" id="EF26DD43-D002-AE30-9EBF-1F008CF30F0E">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>CE3F2D56-FE77-843D-CBE2-66038A4BF6E1</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB662932-8B33-13C6-7CBD-1152C57A794E" referredColumn="878B5C72-29B6-F4D5-D621-7386EB3FFDFE"/>
+</associations>
+</Column>
+<Column name="passenger_spoken_language" id="F3B1908B-EACA-FBBF-1EB1-E637940B1CBF">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[language code following ISO 639-1 Alpha-2 codes]]></commentInRDBMS>
+<generatorID>4C735FF1-7B44-AD49-4523-E0D2B9305565</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B9ECA10-3132-E8E0-4BFC-D0A01CB2F962" referredColumn="28ED2104-22BF-3AD2-6A7E-546CDE1F0F75"/>
+</associations>
+</Column>
+<Column name="passenger_fname" id="D3A461C8-37D7-5B99-65D5-7C6633AC1A21">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger first name]]></commentInRDBMS>
+<generatorID>66A04DD0-5021-D212-7F4B-3A143796B484</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_lname" id="C872A1B2-0E41-3D7A-27EE-8430D2072D3C">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger last name]]></commentInRDBMS>
+<generatorID>BB7337BD-97AE-FDBD-3151-31E627968796</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_gender" id="0A17BFF4-D2CD-6A74-D469-3B221B8713D7">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger gender (M=Male, F=Female)]]></commentInRDBMS>
+<generatorID>72512F9B-427F-C514-F063-B77FD7609108</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="female"/>
+<valueDef value="M" description="male"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_dob" id="C26B9E22-E5C1-83BC-5974-253FBB64F84E">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger date of birth]]></commentInRDBMS>
+<generatorID>FF16257E-3B54-5D4E-505B-1E9E1A1DBF85</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_phone_no" id="5A8596CD-7070-1137-3F96-8F6D70BFD5BF">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's phone number]]></commentInRDBMS>
+<generatorID>AEF9B0E9-3361-152A-B15D-75D715FC7799</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7582B3F5-7D56-B8E3-3970-242ED5473037" name="PASSENGER_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>481F85A7-77BE-5372-6369-A75F45F209E4</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="878B5C72-29B6-F4D5-D621-7386EB3FFDFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C8C5831-1E0D-74DB-4734-36E55EBE3E75" name="passenger_address">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>C3CAB01F-9C51-1A3D-2E31-6C95698DA0C6</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0ED4348-5303-3C4B-9819-6DE55C9D25C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD51BFBC-F222-09DD-9D08-EF8401184823" name="passenger_guardian">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>401EF52B-0E3F-3BD1-0BF3-80CA14E2DB3E</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF26DD43-D002-AE30-9EBF-1F008CF30F0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64D771D9-CEF2-66E8-FD42-8D434A785A70" name="PASSENGER_LANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>F5A7D322-56F8-904E-930C-B080DCFC32D5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3B1908B-EACA-FBBF-1EB1-E637940B1CBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

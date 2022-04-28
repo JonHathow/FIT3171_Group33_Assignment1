@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E3C86AA-9619-3114-1085-FB58D5CB91CC" name="CRUISE_PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>30627008-E0D7-B624-1ED4-1DDDC9EDC51C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cruise_port_datetime" id="8241F7F7-A3A3-51CA-3F7F-E8BFE31A0187">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the depature or arrival time of a cruise at a particular port]]></commentInRDBMS>
+<generatorID>97DC58AF-5B1C-425C-BF00-73C8AB92F382</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_id" id="911144B4-C2A0-F44F-3BB3-4B54ECCC9437">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cruise's ID]]></commentInRDBMS>
+<generatorID>588528FD-E761-193C-50C2-0CF9E30FF399</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E399B05-7B7B-3707-50DF-D955C47566C6" referredColumn="4C6A19FF-63B6-EA75-6081-232AD9EA09B8"/>
+</associations>
+</Column>
+<Column name="port_code" id="48887E76-4B08-F29A-18C6-7902955603C1">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>7BE73509-7FFD-79DD-340F-0EFD568275C5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0E6C513-64E4-E893-DA20-582509CB9CC7" referredColumn="ACECA7C7-7A83-DD91-D94F-31783730B35F"/>
+</associations>
+</Column>
+<Column name="cruise_port_arrival_departure" id="FA1F755A-5498-5869-B9C8-53AFBFC8861F">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[identifier for the arrival datetime or departure datetime]]></commentInRDBMS>
+<generatorID>3ABE90F1-1EF2-A59D-1E75-B669146E1270</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<constraintName>chk_arrival_departure</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="arrival"/>
+<valueDef value="D" description="departure"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8EB619B-3723-F3E5-B16A-63E53F8DAE93" name="CRUISE_PORT_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>E6DD5C56-7DAB-E01B-FE87-4D7ED5ADEF70</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8241F7F7-A3A3-51CA-3F7F-E8BFE31A0187"/>
+<colUsage columnID="911144B4-C2A0-F44F-3BB3-4B54ECCC9437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D2859F4-EBF8-5378-EF38-B54F6F7C74E1" name="CRUISE_CRUISE_PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>D6249E24-8A0D-10BD-E020-1860FFDFFFCC</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="911144B4-C2A0-F44F-3BB3-4B54ECCC9437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28063BF-8E16-97E4-AEC0-33400B561843" name="PORT_CRUISE_PORT">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>FB8B4B98-E00F-5BE1-8765-1BA1579FF10D</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48887E76-4B08-F29A-18C6-7902955603C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

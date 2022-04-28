@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="662591CE-39C5-7852-66EA-829F0D0A0665" containerWithKeyObject="F64E6D4F-4A7C-3447-0A85-4576395E34D1" localFKIndex="8EA824C9-C727-D63C-0B80-4FC51DB41B58" name="TOUR_TLANGUAGE">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>10B3E3E3-1561-87AE-C012-5AD5F6A01E1C</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<referredTableLongName>TOUR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4C49E2F5-A2BE-DD3F-01B6-007819B1F177</referredTableID>
+<keyObject>129F9B61-D0D8-3FAF-EED7-F78C518A21DC</keyObject>
+<referredKeyID>129F9B61-D0D8-3FAF-EED7-F78C518A21DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>tour_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

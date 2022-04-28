@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="port_name" id="366D446B-E89C-2CAE-323F-F950FF985797">
 <createdBy>wongk</createdBy>

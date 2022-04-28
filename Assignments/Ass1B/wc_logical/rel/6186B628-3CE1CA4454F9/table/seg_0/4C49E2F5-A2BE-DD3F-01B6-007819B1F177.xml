@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4C49E2F5-A2BE-DD3F-01B6-007819B1F177" name="TOUR">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>A1795B95-11D7-D942-34DC-E9ADEB713D72</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tour_id" id="15D647FD-F9D3-23B0-4250-621B938ACF95">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's id]]></commentInRDBMS>
+<generatorID>6DBA7765-73CA-D182-DD38-76AD9287D479</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="75E673A3-8E46-BEF7-ABE6-CB0BDA7C30FC">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>9AAAC175-88EF-0AD9-C4BC-E9541C0318A5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2B635DF-DF79-0633-A501-82691D05A3A1" referredColumn="ACECA7C7-7A83-DD91-D94F-31783730B35F"/>
+</associations>
+</Column>
+<Column name="tour_number" id="1168E6E0-F1EB-D696-A491-DC40B0B72F22">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
+<generatorID>90264D52-E84B-C4DE-595C-FA14D399F6D3</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_datetime" id="016BA378-2BAA-972C-36A8-223896596C11">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
+<generatorID>611459FD-EB92-EDD1-6C82-8C0612E7DAE2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_name" id="842D5C18-23ED-1428-F9F1-6CA6BE8AD963">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's name]]></commentInRDBMS>
+<generatorID>1FD9DB78-749B-A9F9-2B21-9CAB684F9ABE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_description" id="23AF0120-162C-D436-3ABA-797E31DB9D34">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's description]]></commentInRDBMS>
+<generatorID>395C8D83-E5EC-F786-0D67-9F14F52F5D5E</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_hours_required" id="6344CD93-17F9-96FA-E0BB-B70600997DE2">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the number of hours of the tour]]></commentInRDBMS>
+<generatorID>727DD45B-77D3-5570-3E77-13544A2DBCB3</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_cost_per_person" id="A2C7E265-EC90-8507-EEE4-66C25505DC03">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cost of the tour]]></commentInRDBMS>
+<generatorID>58C957BD-78F5-17BD-4219-C3ED025118D2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_wheel_chair_access" id="6B709456-D7A0-AB7C-388E-07B83945B935">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour has wheel chair access or not (Y=yes, N=no)]]></commentInRDBMS>
+<generatorID>2C935291-5D96-410C-90D5-74D865C9C5F6</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<constraintName>chk_tour_wheel_chair_access</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_availability" id="6864B646-10E9-D179-2C62-838BA24D2850">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's  availability ]]></commentInRDBMS>
+<generatorID>2B75F2F7-656B-E60F-E794-9595C54F151B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="129F9B61-D0D8-3FAF-EED7-F78C518A21DC" name="TOUR_PK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>937497A2-C385-9328-C1D5-4EFCA298DC77</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15D647FD-F9D3-23B0-4250-621B938ACF95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="971FC13F-E94D-6AFA-BB24-D941E9DE150F" name="TOUR_NK">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>83D1B9F6-24ED-734D-63D3-7AE7826FB6F2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75E673A3-8E46-BEF7-ABE6-CB0BDA7C30FC"/>
+<colUsage columnID="1168E6E0-F1EB-D696-A491-DC40B0B72F22"/>
+<colUsage columnID="016BA378-2BAA-972C-36A8-223896596C11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8A8F2D2-F476-8ADF-3CB4-F9F093F0FC41" name="PORT_PORT_TOUR">
+<createdBy>wongk</createdBy>
+<createdTime>2022-04-28 04:26:08 UTC</createdTime>
+<generatorID>1B2FF1D4-5BFE-A2D4-B99D-DA1DCB135764</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75E673A3-8E46-BEF7-ABE6-CB0BDA7C30FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

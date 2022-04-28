@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LANGUAGE_PORT_TOUR" directorySegmentName="seg_0" id="B416730C-6DE0-4A13-594C-039B4727BD4B">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LANGUAGE_TLANGUAGE" directorySegmentName="seg_0" id="B416730C-6DE0-4A13-594C-039B4727BD4B">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 18:39:46 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>

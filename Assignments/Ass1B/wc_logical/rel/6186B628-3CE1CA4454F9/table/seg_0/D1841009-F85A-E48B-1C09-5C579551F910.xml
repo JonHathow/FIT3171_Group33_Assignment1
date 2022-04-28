@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1841009-F85A-E48B-1C09-5C579551F910" name="TOUR">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<generatorID>A1795B95-11D7-D942-34DC-E9ADEB713D72</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tour_number" id="CE9EEB0B-CFAB-5701-40E8-0E6471E1ED7A">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's number]]></commentInRDBMS>
+<generatorID>90264D52-E84B-C4DE-595C-FA14D399F6D3</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_datetime" id="71F0EA62-63B5-37BC-784C-640696F29902">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's date and time]]></commentInRDBMS>
+<generatorID>611459FD-EB92-EDD1-6C82-8C0612E7DAE2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="7DECE495-3887-1B00-8861-520843B70C6D">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the port's code]]></commentInRDBMS>
+<generatorID>9AAAC175-88EF-0AD9-C4BC-E9541C0318A5</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EAAE521F-8D61-BCF5-D913-1DB4DB69D9B0" referredColumn="D5F3ACE6-3844-92CB-4ED2-F4C8DD0CD906"/>
+</associations>
+</Column>
+<Column name="tour_name" id="22D067B1-33E1-B3A5-387C-370954CD9385">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's name]]></commentInRDBMS>
+<generatorID>1FD9DB78-749B-A9F9-2B21-9CAB684F9ABE</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_description" id="6466E89A-0770-26AD-5AA9-DB4809A7B4F3">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's description]]></commentInRDBMS>
+<generatorID>395C8D83-E5EC-F786-0D67-9F14F52F5D5E</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_hours_required" id="C6C0AA84-F850-3F9E-920D-C0335296846D">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the number of hours of the tour]]></commentInRDBMS>
+<generatorID>727DD45B-77D3-5570-3E77-13544A2DBCB3</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_cost_per_person" id="C220A235-9A9B-0AB3-900C-E73D2B24CADD">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the cost of the tour]]></commentInRDBMS>
+<generatorID>58C957BD-78F5-17BD-4219-C3ED025118D2</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_wheel_chair_access" id="099D9DC6-85D3-EB8F-6753-30D6180C0A68">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[tour has wheel chair access or not (Y=yes, N=no)]]></commentInRDBMS>
+<generatorID>2C935291-5D96-410C-90D5-74D865C9C5F6</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<constraintName>chk_tour_wheel_chair_access</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="No"/>
+<valueDef value="Y" description="Yes"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_availability" id="DB9F72B4-0C1F-4CC9-EEC8-43087A87C521">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[the tour's  availability ]]></commentInRDBMS>
+<generatorID>2B75F2F7-656B-E60F-E794-9595C54F151B</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="146ECA22-6106-B28C-5536-DA2CBD8F843C" name="PORT_TOUR_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:46 UTC</createdTime>
+<generatorID>937497A2-C385-9328-C1D5-4EFCA298DC77</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE9EEB0B-CFAB-5701-40E8-0E6471E1ED7A"/>
+<colUsage columnID="71F0EA62-63B5-37BC-784C-640696F29902"/>
+<colUsage columnID="7DECE495-3887-1B00-8861-520843B70C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F61667E-87EF-838F-04BB-0610CF3CB37A" name="PORT_PORT_TOUR">
+<createdBy>user</createdBy>
+<createdTime>2022-04-28 03:32:47 UTC</createdTime>
+<generatorID>1B2FF1D4-5BFE-A2D4-B99D-DA1DCB135764</generatorID>
+<ownerDesignName>wc_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7DECE495-3887-1B00-8861-520843B70C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

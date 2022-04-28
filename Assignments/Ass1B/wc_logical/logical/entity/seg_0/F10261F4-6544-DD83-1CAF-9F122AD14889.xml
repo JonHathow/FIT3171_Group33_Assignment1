@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F10261F4-6544-DD83-1CAF-9F122AD14889" name="PORT_TOUR_PARTICIPANT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F10261F4-6544-DD83-1CAF-9F122AD14889" name="TOUR_PARTICIPANT">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 18:22:36 UTC</createdTime>
 <ownerDesignName>wc_logical</ownerDesignName>
@@ -94,7 +94,7 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="pt_participant_paid" id="DD82A2C9-0FC0-5E40-53F7-DEDB933FDD0B">
+<Attribute name="tour_participant_paid" id="DD82A2C9-0FC0-5E40-53F7-DEDB933FDD0B">
 <createdBy>Mark</createdBy>
 <createdTime>2022-04-27 18:23:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[if participant has paid for the tour (Y=yes, N=no)]]></commentInRDBMS>
